@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .loc-wrapper {
+    @apply flex w-full items-center justify-between p-2 bg-green-700 text-white rounded-md
+  }
+  .loc-info {
+    @appy flex w-full items-center justify-between p-2 bg-green-700 text-white rounded-md
+  }
+
+  .card-wrapper {
+    @apply flex mt-4
+  }
+
+  .card-title {
+    @apply flex justify-between mb-1
+  }
+
+  .card-info {
+    @apply w-full ml-4
+  }
+
+}
